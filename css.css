@@ -1,5 +1,13 @@
-.container{
-    height: auto;
-    width: auto;
+.MenuBar{
+   display: contents;
+   justify-content: flex-end;
+   flex-direction: row;
+   
+}
+#Login{
+    background-color: blue;
+    border-radius: 10px;
+    display: flexbox;
+    justify-content: center;
     align-items: center;
 }
