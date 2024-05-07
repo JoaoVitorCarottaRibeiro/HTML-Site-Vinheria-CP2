@@ -1,24 +1,81 @@
-.MenuBar{
-   display: contents;
-   justify-content: flex-end;
-   flex-direction: row;
-   
-}
-#Login{
-    background-color: blue;
-    border-radius: 10px;
-    display: flexbox;
+.container {
+    display: flex;
     justify-content: center;
+  }
+  
+  .content {
+    display: flex;
     align-items: center;
+  }
+  
+  .header {
+    margin-right: 85px;
+    margin-left: 85px;
+    font-size: 20px;
+  }
+
+  .search-container {
+    position: relative;
+    width: 280px;
+  }
+  
+  input[type="text"] {
+    width: calc(70%); 
+    padding: 10px;
+    border: 1px solid #ff0000;
+    border-radius: 10px;
+    box-sizing: border-box;
+  }
+  
+/* Seção 2 */
+
+.container2{
+    margin: 20px;
+    padding: 15px;
+}
+
+#ProdutosRenomados{
+  font-size: 34px;
 }
 
 .BotaoVR {
     color: white;
     background-color: #E99292;
     border: none;
-    height: 86px;
-    width: 440px;
-    font-size: 145%;
+    border-radius: 5px;
+    height: 86px; 
+    width: 420px;
+    font-size: 145%; 
+    cursor: pointer; 
+    margin-bottom: 15px;
+    transition: all 0.3s;
+}
+
+.vinhoRenomado {
+    display: table-cell;
+    float: left;
+    width: 300px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.content2{
+    background-color: white; 
+    border-radius: 10px; 
+    width: 310px; 
+    height: 450px; 
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+
+.MR {
+    max-width: 100%;
+    max-height: 100%;
+    float: left;
+    display: flex;
+    justify-content: left;
+    align-items: center;
 }
 
 .MaisVendidos {
@@ -30,13 +87,13 @@
     background-color: #371C1C;
     height: 43px;
     width: 169px;
-   
 }
 
 .Cupom {
     color: white;
     background-color: #371C1C;
     text-align: center;
+    
 }
 
 .Avaliacoes {
@@ -44,38 +101,67 @@ text-align: center;
 }
 
 
-.secao-1 {
+.secao-1 { 
     width: 100%;
     height: 100%;
-    border: 2px solid red;
+    background: linear-gradient(to right, 
+        #3DB429 0%,      
+        #24FF0033 33.33%,  
+        #BBBBBB 33.33%,  
+        #ffffff 33.34%,  
+        #ffffff 66.66%,  
+        #BBBBBB 66.66%,  
+        #FD474733 33%,  
+        #ff0000  100%     
+    );
+    border-radius: 5px;
+}
+
+.anuncios {
+    display: flex;
+    justify-content: space-around;
+    height: 150px;
+    margin-left: 85px;
+    margin-right: 85px;
 }
 
 .secao-2 {
     width: 100%;
     height: 100%;
-    border: 2px solid blue;
+    background-color: rgb(74, 26, 26);
+    color: white;
+    border-radius: 5px;
+}
+
+.MR {
+    margin-left: 50%;
 }
 
 .secao-3 {
     width: 100%;
     height: 100%;
-    border: 2px solid yellow;
 }
 
 .secao-4 {
     width: 100%;
     height: 100%;
-    border: 2px solid green;
 }
 
 .secao-5 {
     width: 100%;
     height: 100%;
-    border: 2px solid black;
+    background-color: rgb(175, 170, 170);
 }
 
 .rodape-6 {
     width: 100%;
     height: 100%;
-    border: 2px solid pink;
+    background-color: rgb(74, 26, 26);
+    color: white;
+
+}
+
+.contato{
+    background-color: rgb(80, 84, 90);
+    color: white;
 }
