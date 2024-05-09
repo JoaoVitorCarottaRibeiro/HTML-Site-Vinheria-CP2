@@ -1,5 +1,5 @@
 # CP2-Front-end 
-Trabalho final do CP 2 da matéria de Front-end 
+Trabalho final do CP 3 da matéria de Front-end 
 ----------------------------------------------- 
 João Vitor Carotta Ribeiro - RM 555187
 Pedro Fedizko de Castro - RM 558283 
