@@ -1,4 +1,4 @@
-# CP2-Front-end 
+# CP3-Front-end 
 Trabalho final do CP 3 da matéria de Front-end 
 ----------------------------------------------- 
 João Vitor Carotta Ribeiro - RM 555187
